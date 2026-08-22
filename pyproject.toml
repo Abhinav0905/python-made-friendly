@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python-made-friendly-solutions"
+version = "1.0.0"
+description = "Worked exercise code for Python, Made Friendly"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+  { name = "Abhinav Kumar" },
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+]
+
+[tool.setuptools.packages.find]
+include = ["chapters*"]

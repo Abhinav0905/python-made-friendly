@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "book-calculator-example"
+version = "0.1.0"
+description = "The Chapter 36 src-layout calculator"
+requires-python = ">=3.8"
+
+[project.scripts]
+mycalc = "calculator.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
