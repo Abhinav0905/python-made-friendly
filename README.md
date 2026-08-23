@@ -124,4 +124,4 @@ The code pass found a small set of factual errors, exercise-answer conflicts and
 
 ## License
 
-No open-source license has been selected yet. The author or publisher should add the chosen license before making the repository public.
+This companion repository is released under the [MIT License](LICENSE).
